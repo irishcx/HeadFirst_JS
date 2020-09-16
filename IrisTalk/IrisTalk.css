@@ -1,9 +1,9 @@
 div{
     margin-top:100px;
     text-align: center;
+    background: rgb(40, 42, 66);
 }
 
-img{
-    height:160px;
-    width:138px;
+img.style1{
+    height:400px;
 }

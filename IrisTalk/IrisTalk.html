@@ -1,12 +1,12 @@
 <html>
 <head>
-    <link rel="stylesheet" href='./IrisTalk.css'>
+    <link rel="stylesheet" href='./IrisTalk.css' id='css1'>
 </head>
 
-<body>
+<body onload="resizeIris()" onresize="resizeIris()" >
     <div>
-        <img id="iris_image" src="./iris_icon.jpg" alt="iIris" 
-        onclick="touchIris()"/>
+        <img id="iris_image" src="./iris_icon.jpg" class="style1" alt="iIris" 
+        onclick="touchIris()" />
     </div>
     <script src="./IrisTalk.js"></script>
 </body>
